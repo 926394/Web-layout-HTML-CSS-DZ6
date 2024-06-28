@@ -1,0 +1,268 @@
+/* Обнуление стилей */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  background: #ffffff;
+  /* background: #020a18;
+  color: #fff; */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Шрифт */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+/* Применений своих стилей */
+
+h1,
+h2,
+h3,
+h4,
+p,
+button {
+  font-family: "Lato", sans-serif;
+}
+
+.headerContainer {
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 75px;
+}
+
+.headerColor {
+  background: #222222;
+}
+
+.headerPosition {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 18px;
+}
+
+.navigation1 {
+  width: 111px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 32px;
+}
+.navigation2 {
+  width: 159px;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.HeadBut {
+  cursor: pointer;
+  background: #222222;
+  border: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  /* height: 470px; */
+}
+
+/* Секция 1 блог main  */
+.mainContainer {
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 764px;
+  background: #f1e4e6;
+  display: flex;
+  align-items: center;
+  background: #f1e4e6;
+}
+
+/* .imgSection1 {
+  margin-bottom: 100px;
+} */
+
+.textSection1 {
+  border-left: 12px solid #f16d7f;
+  padding-left: 16px;
+  margin-left: 63px;
+  width: 405px;
+  height: 93.1px;
+}
+.textSection1 h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  color: #222222;
+}
+
+.textSection1 p {
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+}
+.texCol {
+  color: #f16d7f;
+}
+
+/* Секция 2 */
+.section2Position {
+  display: flex;
+  flex-wrap: wrap;
+  height: 470px;
+  gap: 30px;
+  padding-top: 65px;
+  padding-bottom: 96px;
+}
+
+.pictureDimensions0 {
+  background-image: url(imgSection2/logoSection2.1.png);
+  /* opacity: 0px; */
+}
+
+.sect2sizePict {
+  width: 360px;
+  height: 260px;
+}
+
+.backgroundBlackout {
+  background: rgba(33, 22, 22, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .sec2TextCorr {
+  display: flex;
+  justify-content: center;
+} */
+.sec2TextCorr h3 {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+}
+.sec2TextCorr p {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  display: flex;
+  justify-content: center;
+}
+
+.pictureDimensions1 {
+  background-image: url(imgSection2/logoSection2.2.png);
+}
+
+.pictureDimensions2 {
+  background-image: url(imgSection2/logoSection2.3.png);
+}
+
+.pictureDimensions3 {
+  background-image: url(imgSection2/logoSection2.4.png);
+}
+.sect2sizePict0 {
+  width: 1140px;
+  height: 180px;
+}
+
+/* Секция 3 */
+.section3Position {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 1395px;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.section3PositionCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.sec3TextCorr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 48px;
+}
+
+.sec3TextCorr h4 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #222222;
+}
+
+.sec3TextCorr p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #9f9f9f;
+}
+
+.card {
+  max-width: 360px;
+  height: 587px;
+}
+
+.cardBloсk {
+  max-width: 360px;
+  height: auto;
+  background: #f8f8f8;
+  padding: 24px 16px 24px 16px;
+}
+
+.cardBloсk h1 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #000000;
+  padding-bottom: 16px;
+}
+
+.cardBloсk p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.8px;
+  color: #5d5d5d;
+  padding-bottom: 16px;
+}
+.cardBloсk h2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  color: #f16d7f;
+}
+
+.sect3button {
+  border: 1px solid #ff6a6a;
+  width: 212px;
+  height: 48px;
+  color: #f26376;
+  background: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+}
