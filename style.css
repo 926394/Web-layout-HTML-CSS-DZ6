@@ -81,7 +81,6 @@ button {
   background: #f1e4e6;
   display: flex;
   align-items: center;
-  background: #f1e4e6;
 }
 
 /* .imgSection1 {
@@ -93,7 +92,7 @@ button {
   padding-left: 16px;
   margin-left: 63px;
   width: 405px;
-  height: 93.1px;
+  height: 93px;
 }
 .textSection1 h1 {
   font-family: "Lato";
@@ -108,7 +107,7 @@ button {
   font-family: Lato;
   font-size: 32px;
   font-weight: 700;
-  line-height: 38.4px;
+  line-height: 38px;
 }
 .texCol {
   color: #f16d7f;
@@ -126,7 +125,6 @@ button {
 
 .pictureDimensions0 {
   background-image: url(imgSection2/logoSection2.1.png);
-  /* opacity: 0px; */
 }
 
 .sect2sizePict {
@@ -175,7 +173,7 @@ button {
 .pictureDimensions3 {
   background-image: url(imgSection2/logoSection2.4.png);
 }
-.sect2sizePict0 {
+.sect2sizePict4 {
   width: 1140px;
   height: 180px;
 }
@@ -185,7 +183,7 @@ button {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  height: 1395px;
+  height: auto;
   align-items: center;
   margin-bottom: 60px;
 }
@@ -265,4 +263,89 @@ button {
   justify-content: center;
   align-items: center;
   margin-top: 48px;
+}
+
+/* DZ-7 адаптив под планшет */
+@media (min-width: 768px) and (max-width: 1146px) {
+  .headerContainer {
+    max-width: 768px;
+  }
+  .container {
+    max-width: 736px;
+  }
+  .headerPadd {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  .navigation1 {
+    width: 111px;
+    gap: 41px;
+  }
+  .navigation2 {
+    width: 169px;
+  }
+
+  /* секция 1 */
+
+  .mainContainer {
+    max-width: 768px;
+    height: 368px;
+  }
+  .sizePicture {
+    max-width: 386px;
+    height: 368px;
+  }
+  .textSection1 {
+    padding-left: 16px;
+    margin-left: 39px;
+    max-width: 311px;
+    height: 92px;
+    gap: 39px;
+  }
+  .textSection1 h1 {
+    font-size: 44px;
+    line-height: 52px;
+  }
+
+  .textSection1 p {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  /* Секция 2 */
+
+  .section2Position {
+    height: 303px;
+    gap: 19px;
+    padding-top: 65px;
+    padding-bottom: 109px;
+  }
+  .sect2sizePict {
+    width: 232px;
+    height: 167px;
+  }
+  .sect2sizePict4 {
+    width: 734px;
+    height: 116px;
+  }
+
+  /* секция 3 */
+
+  .section3Position {
+    margin-bottom: 70px;
+  }
+
+  .section3PositionCard {
+    gap: 16px;
+  }
+  .sec3TextCorr {
+    padding-bottom: 72px;
+  }
+  .card {
+    height: 582px;
+  }
+  .sect3button {
+    margin-top: 32px;
+  }
 }
