@@ -272,8 +272,9 @@ button {
     max-width: 768px;
   }
   .container {
-    max-width: 736px;
+    max-width: 343px;
   }
+
   .headerPadd {
     padding-right: 32px;
     padding-left: 32px;
@@ -349,4 +350,106 @@ button {
   .sect3button {
     margin-top: 32px;
   }
+}
+
+/* DZ-8 адаптив под телефон */
+@media (max-width: 375px) {
+  .headerContainer {
+    max-width: 375px;
+  }
+  .container {
+    max-width: 736px;
+  }
+
+  /* скрываем элементы */
+  .hideCard {
+    display: none;
+  }
+  .navigation2_2 {
+    max-width: 32px;
+  }
+
+  .headerPadd {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  /* секция 1 */
+  .mainContainer {
+    width: 375px;
+    height: 363px;
+    /* display: flex;
+    align-items: center; */
+  }
+
+  /* .sizePicture {
+    max-width: 386px;
+    height: 368px;
+  } */
+
+  .textSection1 {
+    width: 263px;
+    height: 66px;
+    display: flex;
+    /* padding-left: 0px; */
+    /* margin-left: 0px; */
+    /* max-width: 0px; */
+    /* height: 92px; */
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .textSection1 h1 {
+    font-size: 38px;
+    line-height: 45px;
+  }
+
+  .textSection1 p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  /* Секция 2 */
+
+  .section2Position {
+    height: auto;
+    gap: 32px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
+  }
+  .sect2sizePict {
+    width: 343px;
+    height: 247px;
+  }
+  .sect2sizePict4 {
+    width: 343px;
+    height: 111px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* секция 3 */
+
+  .section3Position {
+    margin-bottom: 70px;
+  }
+
+  .section3PositionCard {
+    gap: 16px;
+  }
+  .sec3TextCorr {
+    padding-bottom: 72px;
+  }
+  .card {
+    height: 582px;
+  }
+  .sect3button {
+    margin-top: 32px;
+  }
+
+
+
+
 }
