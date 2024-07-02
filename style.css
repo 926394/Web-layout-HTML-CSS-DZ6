@@ -1,3 +1,8 @@
+/* Шрифт */
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@100;300;400;700;900;100;300;400;700;900&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
 /* Обнуление стилей */
 * {
   margin: 0;
@@ -8,17 +13,12 @@
 body {
   scroll-behavior: smooth;
   background: #ffffff;
-  /* background: #020a18;
-  color: #fff; */
 }
 
 img {
   display: block;
   max-width: 100%;
 }
-
-/* Шрифт */
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 /* Применений своих стилей */
 
@@ -29,12 +29,19 @@ h4,
 p,
 button {
   font-family: "Lato", sans-serif;
+  /* font-style: italic; */
+}
+
+.header {
 }
 
 .headerContainer {
-  max-width: 1600px;
+  display: flex;
+  width: 1600px;
   margin: 0 auto;
   height: 75px;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .headerColor {
@@ -42,9 +49,9 @@ button {
 }
 
 .headerPosition {
+  width: 1140px;
   display: flex;
   justify-content: space-between;
-  padding-top: 18px;
 }
 
 .navigation1 {
@@ -95,7 +102,6 @@ button {
   height: 93px;
 }
 .textSection1 h1 {
-  font-family: "Lato";
   font-style: normal;
   font-weight: 900;
   font-size: 48px;
@@ -104,7 +110,6 @@ button {
 }
 
 .textSection1 p {
-  font-family: Lato;
   font-size: 32px;
   font-weight: 700;
   line-height: 38px;
@@ -141,20 +146,16 @@ button {
   align-items: center;
 }
 
-/* .sec2TextCorr {
-  display: flex;
-  justify-content: center;
-} */
 .sec2TextCorr h3 {
   color: #f16d7f;
-  font-family: Lato;
+
   font-size: 24px;
   font-weight: 700;
   line-height: 28.8px;
 }
 .sec2TextCorr p {
   color: #ffffff;
-  font-family: Lato;
+
   font-size: 16px;
   font-weight: 400;
   line-height: 19.2px;
