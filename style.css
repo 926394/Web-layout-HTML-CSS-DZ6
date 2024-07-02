@@ -368,7 +368,6 @@ button {
   .navigation2_2 {
     max-width: 32px;
   }
-
   .headerPadd {
     padding-right: 16px;
     padding-left: 16px;
@@ -378,23 +377,11 @@ button {
   .mainContainer {
     width: 375px;
     height: 363px;
-    /* display: flex;
-    align-items: center; */
   }
-
-  /* .sizePicture {
-    max-width: 386px;
-    height: 368px;
-  } */
-
   .textSection1 {
     width: 263px;
     height: 66px;
     display: flex;
-    /* padding-left: 0px; */
-    /* margin-left: 0px; */
-    /* max-width: 0px; */
-    /* height: 92px; */
     align-items: flex-start;
     flex-direction: column;
   }
@@ -410,7 +397,6 @@ button {
   }
 
   /* Секция 2 */
-
   .section2Position {
     height: auto;
     gap: 32px;
@@ -430,26 +416,32 @@ button {
     background-size: cover;
   }
 
+
   /* секция 3 */
-
   .section3Position {
-    margin-bottom: 70px;
+    margin-bottom: 85px;
   }
-
   .section3PositionCard {
-    gap: 16px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
   }
   .sec3TextCorr {
-    padding-bottom: 72px;
+    padding-bottom: 64px;
   }
   .card {
-    height: 582px;
+    max-width: 343px;
+    height: 580px;
   }
   .sect3button {
-    margin-top: 32px;
+    margin-top: 40px;
   }
-
-
+  .cardBloсk {
+    display: flex;
+    flex-direction: column;
+    padding: 31px 16px 31px 16px;
+  }
 
 
 }
