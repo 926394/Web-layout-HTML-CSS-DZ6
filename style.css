@@ -219,12 +219,13 @@ button {
 .card {
   max-width: 360px;
   height: 587px;
+  background: #f8f8f8;
 }
 
 .cardBloсk {
   max-width: 360px;
   height: auto;
-  background: #f8f8f8;
+  /* background: #f8f8f8; */
   padding: 24px 16px 24px 16px;
 }
 
@@ -272,14 +273,12 @@ button {
     max-width: 768px;
   }
   .container {
-    max-width: 343px;
+    max-width: 736px;
   }
-
   .headerPadd {
     padding-right: 32px;
     padding-left: 32px;
   }
-
   .navigation1 {
     width: 111px;
     gap: 41px;
@@ -289,7 +288,6 @@ button {
   }
 
   /* секция 1 */
-
   .mainContainer {
     max-width: 768px;
     height: 368px;
@@ -309,14 +307,12 @@ button {
     font-size: 44px;
     line-height: 52px;
   }
-
   .textSection1 p {
     font-size: 24px;
     line-height: 28px;
   }
 
   /* Секция 2 */
-
   .section2Position {
     height: 303px;
     gap: 19px;
@@ -333,11 +329,9 @@ button {
   }
 
   /* секция 3 */
-
   .section3Position {
     margin-bottom: 70px;
   }
-
   .section3PositionCard {
     gap: 16px;
   }
@@ -353,14 +347,14 @@ button {
 }
 
 /* DZ-8 адаптив под телефон */
-@media (max-width: 375px) {
+@media (max-width: 767px) {
+/* @media (max-width: 375px) { */
   .headerContainer {
     max-width: 375px;
   }
   .container {
     max-width: 736px;
   }
-
   /* скрываем элементы */
   .hideCard {
     display: none;
@@ -385,12 +379,10 @@ button {
     align-items: flex-start;
     flex-direction: column;
   }
-
   .textSection1 h1 {
     font-size: 38px;
     line-height: 45px;
   }
-
   .textSection1 p {
     font-size: 20px;
     line-height: 24px;
