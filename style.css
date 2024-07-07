@@ -267,6 +267,179 @@ button {
   margin-top: 48px;
 }
 
+/* DZ-9 */
+.section4Position {
+  background: #222224;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerS {
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 341px;
+}
+
+.card4 {
+  width: 360px;
+  height: 133px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .card4 img {
+  display: flex;
+
+} */
+
+.card4 h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fbfbfb;
+  padding-top: 28px;
+}
+.card4 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fbfbfb;
+  padding-top: 16px;
+}
+
+/* Section №5 */
+.containerS5 {
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 448px;
+}
+.section5Position {
+  /* background: #222224;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.pictureMountains0 {
+  background-image: url(imgSection5/Human.png);
+}
+.sect5sizePict {
+  height: 448px;
+}
+.backgroundBlackout1 {
+  background: rgba(244, 244, 244, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section5Posi {
+  display: flex;
+}
+/* .border {
+  border-radius: 100px;
+  width: 96px;
+  height: 96px;
+} */
+
+.dataSize {
+  width: 360px;
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 223px;
+}
+.sec5TextCorr0 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #222224;
+  padding-top: 30px;
+}
+.sec5TextCorr {
+  font-style: italic;
+}
+.sec5TextCorr1 {
+  font-style: italic;
+}
+.dataSize1 {
+  width: 557px;
+  height: 142px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+/* .padding {
+  padding: 30px;
+} */
+.formButPosi {
+  display: flex;
+}
+.disFl {
+  display: flex;
+}
+.formSec5 {
+  width: 256px;
+  height: 49px;
+  cursor: pointer;
+  background: #e1e1e1;
+  border: none;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.butSec5 {
+  width: 100px;
+  height: 49px;
+  cursor: pointer;
+  background: #e05c6e;
+  color: #ffffff;
+  border: none;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+
+/* секция №6 */
+.containerS6 {
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 79px;
+  background: #222224;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.sec6Text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color:#FBFBFB;
+}
+
+.Sec6Position {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+
+
+
+
 /* DZ-7 адаптив под планшет */
 @media (min-width: 768px) and (max-width: 1146px) {
   .headerContainer {
@@ -348,7 +521,7 @@ button {
 
 /* DZ-8 адаптив под телефон */
 @media (max-width: 767px) {
-/* @media (max-width: 375px) { */
+  /* @media (max-width: 375px) { */
   .headerContainer {
     max-width: 375px;
   }
@@ -408,7 +581,6 @@ button {
     background-size: cover;
   }
 
-
   /* секция 3 */
   .section3Position {
     margin-bottom: 85px;
@@ -434,6 +606,4 @@ button {
     flex-direction: column;
     padding: 31px 16px 31px 16px;
   }
-
-
 }
