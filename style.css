@@ -66,12 +66,29 @@ button {
   display: flex;
   justify-content: space-between;
   gap: 32px;
+  position: relative;
 }
 
 .HeadBut {
   cursor: pointer;
   background: #222222;
   border: none;
+}
+.headCorrP {
+  width: 19px;
+  height: 19px;
+  background: #f16d7f;
+  border-radius: 10px;
+  color: #ffffff;
+  position: absolute;
+  top: -4px;
+  right: -8px;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
@@ -222,6 +239,48 @@ button {
   background: #f8f8f8;
 }
 
+.list__img {
+  position: relative;
+}
+.list__img:hover .magik__butt {
+  /* display: flex; */
+  /* opacity: 0; */
+  opacity: 1;
+}
+.magik__butt {
+  background: rgba(58, 56, 56, 0.86);
+  /* background-color: #e9dddd; */
+  /* opacity: 1%; */
+  /* background-color: rgba(0, 0, 0, 0); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: none; */
+  opacity: 0;
+  /* opacity: 1;  */
+}
+
+.card__butt {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  opacity: 1;
+  background: rgba(58, 56, 56, 0.86);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 139px;
+  height: 44px;
+  cursor: pointer;
+}
+
 .cardBloсk {
   max-width: 360px;
   height: auto;
@@ -272,12 +331,18 @@ button {
   background: #222224;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 .containerS {
   max-width: 1600px;
   margin: 0 auto;
   height: 341px;
+}
+.sec4sizeFront {
+  width: 1140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card4 {
@@ -287,7 +352,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 /* .card4 img {
@@ -318,12 +383,7 @@ button {
   margin: 0 auto;
   height: 448px;
 }
-.section5Position {
-  /* background: #222224;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
-}
+
 .pictureMountains0 {
   background-image: url(imgSection5/Human.png);
 }
@@ -340,6 +400,13 @@ button {
 }
 .section5Posi {
   display: flex;
+  justify-content: space-around;
+}
+.sec5sizeFront {
+  width: 1140px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end
 }
 /* .border {
   border-radius: 100px;
@@ -355,7 +422,7 @@ button {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-right: 223px;
+  /* padding-right: 223px; */
 }
 .sec5TextCorr0 {
   font-size: 20px;
@@ -371,7 +438,7 @@ button {
   font-style: italic;
 }
 .dataSize1 {
-  width: 557px;
+  /* width: 557px; */
   height: 142px;
   text-align: center;
   display: flex;
@@ -387,6 +454,8 @@ button {
 }
 .disFl {
   display: flex;
+  /* width: 256px; */
+  /* height: 49px; */
 }
 .formSec5 {
   width: 256px;
@@ -396,6 +465,12 @@ button {
   border: none;
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
+}
+
+.sect3button:hover {
+  background: #ff6a6a;
+  color: #ffffff;
+  border: 1px solid #ffffff;
 }
 .butSec5 {
   width: 100px;
@@ -420,25 +495,42 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-around;
-
 }
 .sec6Text {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color:#FBFBFB;
+  color: #fbfbfb;
 }
-
 .Sec6Position {
   width: 1140px;
   display: flex;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
 }
-
-
-
-
+.sec6Button {
+  width: 148px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cursorSec6 {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.cursorSec6:hover {
+  background: #ff6a6a;
+}
+.sec6Button button:hover svg {
+  fill: #ffffff;
+}
 
 /* DZ-7 адаптив под планшет */
 @media (min-width: 768px) and (max-width: 1146px) {
@@ -516,6 +608,45 @@ button {
   }
   .sect3button {
     margin-top: 32px;
+  }
+
+  /* СЕКЦИЯ №4 */
+  .containerS {
+    max-width: 768px;
+    margin: 0 auto;
+    height: 610px;
+  }
+  .section4Position {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  /* СЕКЦИЯ №5 */
+  .containerS5 {
+    max-width: 768px;
+    margin: 0 auto;
+    height: 693px;
+  }
+  .section5Posi {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+  }
+
+  /* СЕКЦИЯ №6 */
+  .containerS6 {
+    max-width: 768px;
+    /* margin: 0 auto; */
+    /* display: flex; */
+    /* align-items: center;
+  justify-content: space-around; */
+  }
+  .Sec6Position {
+    width: 736px;
+    /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
   }
 }
 
