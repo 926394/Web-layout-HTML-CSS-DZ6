@@ -205,53 +205,42 @@ button {
   align-items: center;
   margin-bottom: 60px;
 }
-
 .section3PositionCard {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-
 .sec3TextCorr {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 48px;
 }
-
 .sec3TextCorr h4 {
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
   color: #222222;
 }
-
 .sec3TextCorr p {
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
   color: #9f9f9f;
 }
-
 .card {
   max-width: 360px;
   height: 587px;
   background: #f8f8f8;
 }
-
 .list__img {
   position: relative;
 }
 .list__img:hover .magik__butt {
-  /* display: flex; */
-  /* opacity: 0; */
   opacity: 1;
 }
 .magik__butt {
   background: rgba(58, 56, 56, 0.86);
-  /* background-color: #e9dddd; */
-  /* opacity: 1%; */
-  /* background-color: rgba(0, 0, 0, 0); */
   position: absolute;
   top: 0;
   left: 0;
@@ -260,9 +249,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* display: none; */
   opacity: 0;
-  /* opacity: 1;  */
 }
 
 .card__butt {
@@ -280,14 +267,11 @@ button {
   height: 44px;
   cursor: pointer;
 }
-
 .cardBloсk {
   max-width: 360px;
   height: auto;
-  /* background: #f8f8f8; */
   padding: 24px 16px 24px 16px;
 }
-
 .cardBloсk h1 {
   font-size: 13px;
   font-weight: 400;
@@ -295,7 +279,6 @@ button {
   color: #000000;
   padding-bottom: 16px;
 }
-
 .cardBloсk p {
   font-size: 14px;
   font-weight: 300;
@@ -309,7 +292,6 @@ button {
   line-height: 19.2px;
   color: #f16d7f;
 }
-
 .sect3button {
   border: 1px solid #ff6a6a;
   width: 212px;
@@ -344,7 +326,6 @@ button {
   justify-content: space-between;
   align-items: center;
 }
-
 .card4 {
   width: 360px;
   height: 133px;
@@ -355,12 +336,6 @@ button {
   justify-content: space-between;
   /* justify-content: center; */
 }
-
-/* .card4 img {
-  display: flex;
-
-} */
-
 .card4 h2 {
   font-style: normal;
   font-weight: 400;
@@ -384,7 +359,6 @@ button {
   margin: 0 auto;
   height: 448px;
 }
-
 .pictureMountains0 {
   background-image: url(imgSection5/Human.png);
 }
@@ -409,12 +383,6 @@ button {
   justify-content: space-around;
   align-items: flex-end;
 }
-/* .border {
-  border-radius: 100px;
-  width: 96px;
-  height: 96px;
-} */
-
 .dataSize {
   width: 360px;
   height: 225px;
@@ -423,7 +391,6 @@ button {
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* padding-right: 223px; */
 }
 .sec5TextCorr0 {
   font-size: 20px;
@@ -439,7 +406,6 @@ button {
   font-style: italic;
 }
 .dataSize1 {
-  /* width: 557px; */
   height: 142px;
   text-align: center;
   display: flex;
@@ -447,16 +413,12 @@ button {
   align-items: center;
   justify-content: space-around;
 }
-/* .padding {
-  padding: 30px;
-} */
+
 .formButPosi {
   display: flex;
 }
 .disFl {
   display: flex;
-  /* width: 256px; */
-  /* height: 49px; */
 }
 .formSec5 {
   width: 256px;
@@ -467,7 +429,6 @@ button {
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
 }
-
 .sect3button:hover {
   background: #ff6a6a;
   color: #ffffff;
@@ -613,19 +574,13 @@ button {
 
   /* СЕКЦИЯ №4 */
   .containerS {
-    /* min-width: 768px; */
     max-width: 768px;
     margin: 0 auto;
     height: 610px;
   }
-  .section4Position {
-    /* display: flex;
-    flex-direction: column;
-    align-content: center; */
-  }
   .sec4sizeFront {
-    width: 768px;
-    height: 610px;
+    /* width: 768px;
+    height: 610px; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -647,31 +602,22 @@ button {
   }
   .sec5sizeFront {
     width: 768px;
-    /* height: 693px; */
+    height: 614px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
   }
   .sect5sizePict {
     height: 614px;
-    /* height: 448px; */
-    /* background-position: center; */
-    /* background-size: cover; */
   }
 
   /* СЕКЦИЯ №6 */
   .containerS6 {
     max-width: 768px;
-    /* margin: 0 auto; */
-    /* display: flex; */
-    /* align-items: center;
-  justify-content: space-around; */
   }
   .Sec6Position {
     width: 736px;
-    /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
   }
 }
 
@@ -762,4 +708,74 @@ button {
     flex-direction: column;
     padding: 31px 16px 31px 16px;
   }
+
+  /* СЕКЦИЯ №4 */
+  .containerS {
+    max-width: 375px;
+    margin: 0 auto;
+    height: 610px;
+  }
+  .sec4sizeFront {
+    width: 375px;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  /* СЕКЦИЯ №5 */
+  .containerS5 {
+    max-width: 375px;
+    margin: 0 auto;
+    height: 550px;
+  }
+  .pictureMountains0 {
+    background-image: url(imgSection5/Layer_41.png);
+  }
+  .section5Posi {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec5sizeFront {
+    width: 375px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .sect5sizePict {
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .dataSize {
+    width: 343px;
+    height: 194px;
+  }
+
+  .dataSize1 {
+    height: 132px;
+  }
+
+    /* СЕКЦИЯ №6 */
+    .containerS6 {
+      max-width: 375px;
+      height: 143px;
+    }
+    .Sec6Position {
+      width: 375px;
+      height: 143px;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-evenly;
+    }
+
+
+
+
+
+
 }
