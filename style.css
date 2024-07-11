@@ -27,7 +27,8 @@ h2,
 h3,
 h4,
 p,
-button, a{
+button,
+a {
   font-family: "Lato", sans-serif;
   /* font-style: italic; */
 }
@@ -112,50 +113,63 @@ margin-bottom: 100px;
 } */
 
 /* ЗДЕСЬ стили ДЛЯ вспл.окна */
-.fafafafafa5 {
+.main1_0Conte {
   position: relative;
 }
 
-.dadadadada5 {
+.hidden {
+  display: none;
+}
+
+
+.main1Menu {
   width: 232px;
   height: 634px;
   position: absolute;
-   top: 0;
+  top: 0;
   right: 0;
-  /* left: 0; */ 
-  /* margin: 0; */
-  background: #FFFFFF;
+  background: #ffffff;
   /* display: flex; */
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
-
   /* opacity: 0px; */
+}
+
+.recIcinX {
+ background:none;
+ border: none;
+ cursor: pointer;
+
 }
 
 .menusConteiners {
   padding: 32px 0 0 33px;
 }
 .mainPosiMWK {
-display: flex;
-flex-direction: column;
-padding: 0 0 0 20px;
-line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 20px;
+  line-height: 30px;
 }
 
 .theSameSize0 {
   padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+  
 }
 .theSameSize1 {
   padding-bottom: 20px;
 }
 
-.dadadadada5 h1 {
+.main1Menu h1 {
   font-size: 14px;
   font-weight: 700;
   /* line-height: 17px; */
   color: #000000;
 }
 
-.dadadadada5 h2 {
+.main1Menu h2 {
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
