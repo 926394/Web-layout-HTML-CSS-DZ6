@@ -114,13 +114,12 @@ margin-bottom: 100px;
 
 /* ЗДЕСЬ стили ДЛЯ вспл.окна */
 .main1_0Conte {
-  position: relative;
+  /* position: relative; */
 }
 
 .hidden {
   display: none;
 }
-
 
 .main1Menu {
   width: 232px;
@@ -135,10 +134,9 @@ margin-bottom: 100px;
 }
 
 .recIcinX {
- background:none;
- border: none;
- cursor: pointer;
-
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .menusConteiners {
@@ -156,7 +154,6 @@ margin-bottom: 100px;
   display: flex;
   justify-content: space-between;
   padding-right: 15px;
-  
 }
 .theSameSize1 {
   padding-bottom: 20px;
@@ -716,6 +713,16 @@ height: 610px; */
     padding-right: 16px;
     padding-left: 16px;
   }
+  /* скрываем значок у корзины */
+  .headCorrP {
+    display: none;
+  }
+  .navigation2 {
+    width: 32px;
+  }
+
+
+
 
   /* секция 1 */
   .mainContainer {
