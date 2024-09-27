@@ -1,7 +1,7 @@
 /* Шрифт */
 /* @import url(&quot;https://fonts.googleapis.com/css2?family=Lato:ital,wght@100;300;400;700;900;100;300;400;700;900&amp;display=swap&quot;); */
 
-@import url(&quot;https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap&laquo;);
+
 
 /* Обнуление стилей */
 * {
@@ -338,9 +338,11 @@ margin-bottom: 100px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-direction: row-reverse;
   width: 139px;
   height: 44px;
   cursor: pointer;
+
 }
 .cardBloсk {
   max-width: 360px;
